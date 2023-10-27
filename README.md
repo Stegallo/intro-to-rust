@@ -28,10 +28,16 @@ To start, we’ll use Cargo to make a new project.
 
 inside the newly created folder the code can be compiled and run with
 
-```cargo run``
+```cargo run```
 
 ## Adding dependencies
 
 In Rust packages are referred to as “crates.”
 
 ```cargo add ferris-says```
+
+## Alternative way of compile and run code
+
+```rustc src/main.rs```
+
+```./main```
